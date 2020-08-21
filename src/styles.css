@@ -1,0 +1,151 @@
+/* You can add global styles to this file, and also import other style files */
+
+li {
+    cursor: pointer;
+}
+a{
+  cursor: pointer;
+  color: white;
+
+}
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #eeefa8;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 5;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;    
+    display: block;
+    transition: 0.2s;
+  }
+  
+  .sidenav  {
+    color: #f1f1f1;
+    
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 25px;
+    margin-left: 50px;
+    color: white;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+ 
+  .sidelinks{
+    color:white;
+  }
+  .sidelinks:hover {
+      color:#111;
+      background-color: #eae151;
+  }
+.openNav{
+    font-size:25px;
+    cursor:pointer;
+    color:white;
+}
+.openNav:hover{
+  color: #111;
+    background-color: #eae151;  
+    
+}
+.navbar{
+    font-size:25px;
+    cursor:pointer;
+    background-color: #2d2a32;
+}
+.nav-link:hover{
+  color: #111;
+}
+.heading{
+  color: #ddd92a;
+  font-size: 72px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 100%;
+  display: inline;
+}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.form-group{
+  font-size: 24px;
+  padding-left: 3em;
+  padding-right: 3em;
+  
+}
+.btn{
+  text-align: center;
+  width: 40%;
+  margin-top: 10px;
+  margin-left: 70px;
+  padding: 20px;
+  
+}
+img{
+  opacity: 0.5;
+}
+.container{
+  width: 100%;
+  clear:both;
+  margin: 0px;
+}
+.container input{
+  font-size: large;
+  width: auto;
+  clear: both;
+}
+.headinglanding{
+  float: left;
+  color: #2d2d32;
+  font-weight: bolder;
+  font-size: 72px;
+  display: block;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.introtext{
+  float: left;
+  text-align: justify;
+  width: 50%;
+  display: block;
+  
+}
+.imglanding{
+  float: right;
+  margin: 10px;
+  width: 45%;
+}
+
+.btn-warning
+{
+  float:right;
+  margin: 10px;
+  width: 45%;
+  height: auto;
+  font-weight: bolder;
+  font-size: 72px;
+}
+

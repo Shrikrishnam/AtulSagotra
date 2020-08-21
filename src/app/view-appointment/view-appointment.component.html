@@ -1,0 +1,28 @@
+<table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col" class = "h1">Sl NO</th>
+        <th scope="col" class = "h2">Name</th>
+        <th scope="col" class = "h3">Address</th>
+        <th scope="col" class = "h4">City</th>
+        <th scope="col" class = "h5">Package</th>
+        <th scope="col" class="h6">Trainer Preference</th>       
+        <th scope="col" class="h7">Phone</th>
+      
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let appointment of allAppointment">
+          <td>{{appointment.id}} </td>
+          <td>{{appointment.firstname}} {{appointment.lastname}}</td>
+          <td>{{appointment.streetadress}} {{appointment.country}} {{appointment.pincode}}</td>
+          <td>{{appointment.city}}</td>
+                    
+          <td>{{appointment.packages}}</td>
+          <td>{{appointment.trainerpreference}}</td>
+          <td>{{appointment.phonenumber}}</td>
+          
+          <td><button (click) = "deleteAppointment(appointment)"class="btn btn-danger" style = "margin:15px">Delete</button></td>
+      </tr>
+    </tbody>
+  </table>
